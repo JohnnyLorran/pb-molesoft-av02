@@ -73,7 +73,7 @@ public class RodaQuiz {
                     consoleColors.semPlacar();
                 }else{
                     System.out.println("\n\n\nPLACAR");
-                    resultadoList.forEach(r -> System.out.println(r));
+                    resultadoList.forEach(System.out::println);
                     System.out.println("\n\n\n");
                 }
             }
