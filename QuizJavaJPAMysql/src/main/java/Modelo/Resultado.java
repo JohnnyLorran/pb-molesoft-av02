@@ -31,6 +31,8 @@ public class Resultado {
 
     public void setErros(Long erros) {this.erros = erros;}
 
+    public String getJogador() {return jogador;}
+
     public Long getAcertos() {
         return acertos;
     }

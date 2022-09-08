@@ -62,7 +62,8 @@ public class RodaQuiz {
                     resultadoDAO.adicionarNovoResultado(resultado);
                     questaoDAO.fechaEntity();
                 }
-                System.out.println("\n\nFim de jogo !!\n\n");
+                System.out.println("\n\nFim de jogo !!");
+                System.out.println("\nResultado \n" + consoleColors.formataResultado(resultado));
 
 
             }else if(menuOpcoes == 2) {

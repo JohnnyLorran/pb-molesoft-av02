@@ -16,3 +16,4 @@ INSERT INTO `pb_quiz`.`questoes` (`ativa`,`pergunta`,`verdadeira`) VALUES ( true
 
 UPDATE `pb_quiz`.`questoes` SET `ativa` = false  WHERE `id` = 1;
 UPDATE `pb_quiz`.`questoes` SET `ativa` = false  WHERE `id` = 5;
+UPDATE `pb_quiz`.`questoes` SET `ativa` = false  WHERE `id` = 7;

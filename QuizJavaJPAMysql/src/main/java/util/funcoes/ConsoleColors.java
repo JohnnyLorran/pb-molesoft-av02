@@ -1,5 +1,7 @@
 package util.funcoes;
 
+import Modelo.Resultado;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -44,6 +46,12 @@ public class ConsoleColors {
 
     public void semPlacar(){
         System.out.println(ConsoleColors.BLUE + "Ninguém completou o Quiz ainda, seja o primeiro. :)\n\n" + ConsoleColors.WHITE);
+    }
+    public String formataResultado(Resultado r){
+     return "JOGADOR: " + ConsoleColors.BLUE + r.getJogador()
+                + ConsoleColors.WHITE + " ACERTOS: " + ConsoleColors.GREEN + r.getAcertos()
+                + ConsoleColors.WHITE + " ERROS: " + ConsoleColors.RED + r.getErros() + ConsoleColors.WHITE + "\n\n\n";
+
     }
 
 
