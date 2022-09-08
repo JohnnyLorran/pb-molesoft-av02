@@ -26,7 +26,7 @@ public class RodaQuiz {
             menuOpcoes = entradaUsuario.lerInteger();
 
             if(menuOpcoes ==  1){
-                System.out.print("\n\n\nDigite o nome do jogador: ");
+                System.out.print("\n\nDigite o nome do jogador: ");
 
                 Resultado resultado = new Resultado();
                 resultado.setJogador(entradaUsuario.lerString());
@@ -40,7 +40,7 @@ public class RodaQuiz {
                     consoleColors.semPerguntas();
                 }else{
                         listaQuestoes.forEach(q -> {
-                        System.out.println("\n\n" + q.getPergunta());
+                        System.out.println("\n" + q.getPergunta());
                         System.out.print("Resposta: ");
                         String resposta = entradaUsuario.lerStringResposta();
                         boolean converteResposta;
@@ -72,9 +72,9 @@ public class RodaQuiz {
                 if (resultadoList.size() <= 0 ) {
                     consoleColors.semPlacar();
                 }else{
-                    System.out.println("\n\n\nPLACAR");
+                    System.out.println("\nPLACAR");
                     resultadoList.forEach(System.out::println);
-                    System.out.println("\n\n\n");
+                    System.out.println("\n");
                 }
             }
 

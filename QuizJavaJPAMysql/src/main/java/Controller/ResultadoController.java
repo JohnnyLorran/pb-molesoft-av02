@@ -7,7 +7,6 @@ import java.util.List;
 
 public class ResultadoController {
 
-
     public void adicionarBancoResultado(EntityManager entityManager, Resultado resultado) {
         entityManager.getTransaction().begin();
         entityManager.persist(resultado);

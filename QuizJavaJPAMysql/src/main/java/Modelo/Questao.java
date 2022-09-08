@@ -17,12 +17,6 @@ public class Questao {
 
     }
 
-    public Questao(String pergunta, boolean verdadeira, boolean ativa){
-        this.pergunta = pergunta;
-        this.verdadeira = verdadeira;
-        this.ativa = ativa;
-    }
-
     public String getPergunta() {
         return pergunta;
     }
@@ -31,7 +25,5 @@ public class Questao {
         return verdadeira;
     }
 
-    public boolean getAtiva() {
-        return ativa;
-    }
+
 }

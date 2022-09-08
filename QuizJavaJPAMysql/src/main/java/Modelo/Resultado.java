@@ -2,7 +2,6 @@ package Modelo;
 
 
 import util.funcoes.ConsoleColors;
-
 import javax.persistence.*;
 import java.sql.Date;
 import java.time.LocalDate;

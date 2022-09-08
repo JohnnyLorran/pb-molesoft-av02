@@ -50,7 +50,7 @@ public class ConsoleColors {
     public String formataResultado(Resultado r){
      return "JOGADOR: " + ConsoleColors.BLUE + r.getJogador()
                 + ConsoleColors.WHITE + " ACERTOS: " + ConsoleColors.GREEN + r.getAcertos()
-                + ConsoleColors.WHITE + " ERROS: " + ConsoleColors.RED + r.getErros() + ConsoleColors.WHITE + "\n\n\n";
+                + ConsoleColors.WHITE + " ERROS: " + ConsoleColors.RED + r.getErros() + ConsoleColors.WHITE + "\n\n";
 
     }
 
