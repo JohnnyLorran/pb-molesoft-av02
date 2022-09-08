@@ -9,7 +9,7 @@ public class EntradaUsuario {
 
     public int lerInteger(){
         try {
-            Integer numero = Integer.valueOf(scanner.nextLine());
+            int numero = Integer.parseInt(scanner.nextLine());
             if(numero > 2){
                 consoleColors.mensagemVermelha("O valor digitado ["+ numero + "] é diferente do menu de opções !");
                 return -1;
@@ -26,7 +26,7 @@ public class EntradaUsuario {
         do {
             try {
                 texto = scanner.nextLine().toLowerCase();
-                //Se for verdadeiro a condição do if, retorna a String texto, se for falso, continua no loop.
+                //Se for verdadeiro a condição do if, retorna a String texto, se for falso, continua no loop
                 if("verdadeiro".equals(texto) || "falso".equals(texto)) {
                     return texto;
                 }else{

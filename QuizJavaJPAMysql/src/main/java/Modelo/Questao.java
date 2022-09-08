@@ -13,17 +13,10 @@ public class Questao {
     private boolean verdadeira;
     private boolean ativa;
 
-    public Questao(){
+    public Questao(){}
 
-    }
+    public String getPergunta() {return pergunta;}
 
-    public String getPergunta() {
-        return pergunta;
-    }
-
-    public boolean getVerdadeira() {
-        return verdadeira;
-    }
-
+    public boolean getVerdadeira() {return verdadeira;}
 
 }
